@@ -29,10 +29,10 @@
       </TableView>
       <ButtonBar nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="679.0">
          <buttons>
-            <Button fx:id="botonPromedio" minWidth="0.0" mnemonicParsing="false" prefHeight="25.0" text="Promedio" />
-            <Button fx:id="botonMayor" mnemonicParsing="false" text="Mayor precio" />
-            <Button fx:id="botonMenor" mnemonicParsing="false" text="Menor Precio" />
-            <Button fx:id="botonDesviacion" mnemonicParsing="false" text="Des Estandar" />
+            <Button fx:id="botonPromedio" minWidth="0.0" mnemonicParsing="false" onAction="#alertPromedio" prefHeight="25.0" text="Promedio" />
+            <Button fx:id="botonMayor" mnemonicParsing="false" onAction="#alertMayor" text="Mayor precio" />
+            <Button fx:id="botonMenor" mnemonicParsing="false" onAction="#alertMenor" text="Menor Precio" />
+            <Button fx:id="botonDesviacion" mnemonicParsing="false" onAction="#alertDesEstand" text="Des Estandar" />
             <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Grafico" />
          </buttons>
       </ButtonBar>
